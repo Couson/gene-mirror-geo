@@ -1,0 +1,6 @@
+{
+    "sample": ["HG00096", "HG00100"],
+    "chromosome" : ["chr3"],
+    "format": ["VCF"],
+    "outpath": "data/raw"
+}

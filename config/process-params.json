@@ -1,0 +1,44 @@
+{
+"pca_pruning": {
+	"--vcf": "data/interim/merged.vcf",
+	"--double-id": "",
+	"--allow-extra-chr": "",
+	"--set-missing-var-ids": "@:#",
+	"--indep-pairwise": "50 10 0.1",
+	"--out" : "data/interim/pca"
+},
+"pca_conduct": {
+	"--vcf": "data/interim/merged.vcf",
+	"--double-id": "",
+	"--allow-extra-chr": "",
+	"--set-missing-var-ids": "@:#",
+	"--extract": "data/interim/pca.prune.in",
+	"--make-bed" : "",
+	"--pca": "",
+	"--out" : "data/interim/pca"
+},
+ "plot": {
+    "val_path": "data/interim/pca.eigenval",
+    "vec_path": "data/interim/pca.eigenvec",
+    "csv_path": "out/out.csv",
+     
+    "plot_path" : "out/out_raw.png",
+     
+    "plot_title": "PCA of 2 PC",
+    "plot_xlabel": "1st PC",
+    "plot_ylabel": "2nd PC",
+    "plot_marker": ".",
+    "plot_color": "r"
+ },
+    
+ "cluster": {
+    "csv_path": "out/out.csv",
+    "num_clusters": 4,
+    "plot_title": "2 PCs OPTICS clustering",
+    "plot_xlabel": "1st PC",
+    "plot_ylabel": "2st PC",
+    "plot_marker": "+",
+    "cluster_min_samples":  50,
+    "plot_path": "out/out_final.png"
+ }
+}

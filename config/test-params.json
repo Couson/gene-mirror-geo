@@ -1,0 +1,4 @@
+{
+	"filepath": "data/test/chr22_test.vcf.gz",
+	"outpath" : "data/interim"	
+}

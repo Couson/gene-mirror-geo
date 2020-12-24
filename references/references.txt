@@ -1,0 +1,6 @@
+[1] A global reference for human genetic variation https://www.nature.com/articles/nature15393
+[2] Genes mirror geography within Europe https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2735096/
+[3] DNA Sequencing Technologies Key to the Human Genome Project https://www.nature.com/scitable/topicpage/dna-sequencing-technologies-key-to-the-human-828/
+[4] Figure 6: 1000 Genomes https://www.internationalgenome.org
+[5] Population structure: PCA, https://speciationgenomics.github.io/pca/
+[6] Whole genome association analysis toolset http://zzz.bwh.harvard.edu/plink/dataman.shtml#mergelist

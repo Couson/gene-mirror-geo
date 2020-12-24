@@ -1,0 +1,16 @@
+{        
+    "plink2": {
+        "--vcf":  "data/raw/vcf/ALL.*.shapeit2_integrated_v1a.GRCh38.20181129.phased.vcf.gz",
+        "--snps-only" :"",
+        "--maf":  "0.05",
+        "--geno": "0.1",
+        "--mind": "0.05",
+        "--recode": "vcf",
+        "--out": "data/interim/*_filtered"
+    },
+    
+    "bcftools": {
+        "concat": "data/interim/*_filtered.vcf",
+        "-o": "data/interim/merged.vcf"
+    }
+}
